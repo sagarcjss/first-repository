@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.util.Map;
 
 public class AttendanceStaff {
-	
+	int id;
 	int staffId;
 	Map<LocalDate, Boolean> attendance;
 	
