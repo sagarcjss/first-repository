@@ -5,6 +5,7 @@ import java.util.Map;
 
 public class AttendanceStaff {
 	int id;
+	String email;
 	int staffId;
 	Map<LocalDate, Boolean> attendance;
 	
